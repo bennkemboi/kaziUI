@@ -1,0 +1,37 @@
+.myGigs {
+    display: flex;
+    justify-content: center;
+}
+.myGigs .container {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.myGigs .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title button {
+    background-color: #1dbf73;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+}
+tr {
+    height: 50px;
+}
+th {
+    text-align: left;
+}
+.title td img {
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+}
